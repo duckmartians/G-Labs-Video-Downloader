@@ -4,7 +4,7 @@
 
 Desktop app for downloading videos from **YouTube, TikTok, Facebook, Instagram, X/Twitter, Twitch, Vimeo, Reddit, SoundCloud, Bilibili and 1,800+ other sites** — with a bundled, self-updating multi-platform download engine. Everything ships in the app; nothing else to install.
 
-![Main window](docs/screenshots/01-main.png)
+![Main window](docs/screenshots/01-main-v2.png)
 
 ## Features
 
@@ -26,15 +26,15 @@ Desktop app for downloading videos from **YouTube, TikTok, Facebook, Instagram, 
 
 | Playlist / channel preview | Supported-links guide |
 |---|---|
-| ![Preview](docs/screenshots/02-preview.png) | ![Help](docs/screenshots/03-help.png) |
+| ![Preview](docs/screenshots/02-preview-v2.png) | ![Help](docs/screenshots/03-help-v2.png) |
 
 | Cookies (per platform, login state) | Proxy pool (saved list, round-robin) |
 |---|---|
-| ![Cookies](docs/screenshots/04-cookies.png) | ![Proxy](docs/screenshots/05-proxy.png) |
+| ![Cookies](docs/screenshots/04-cookies-v2.png) | ![Proxy](docs/screenshots/05-proxy-v2.png) |
 
 | Download history | RTL (العربية) |
 |---|---|
-| ![History](docs/screenshots/06-history.png) | ![RTL](docs/screenshots/07-rtl-arabic.png) |
+| ![History](docs/screenshots/06-history-v2.png) | ![RTL](docs/screenshots/07-rtl-arabic-v2.png) |
 
 ## Cookies that last (YouTube)
 

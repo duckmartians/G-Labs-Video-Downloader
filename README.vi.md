@@ -4,7 +4,7 @@
 
 Ứng dụng desktop tải video từ **YouTube, TikTok, Facebook, Instagram, X/Twitter, Twitch, Vimeo, Reddit, SoundCloud, Bilibili và hơn 1.800 trang khác** — với engine tải đa nền tảng tự cập nhật đóng gói sẵn. Mọi thứ nằm trong app, không cần cài thêm gì.
 
-![Cửa sổ chính](docs/screenshots/01-main.png)
+![Cửa sổ chính](docs/screenshots/01-main-v2.png)
 
 ## Tính năng
 
@@ -26,15 +26,15 @@
 
 | Xem trước playlist / kênh | Hướng dẫn link hỗ trợ |
 |---|---|
-| ![Preview](docs/screenshots/02-preview.png) | ![Help](docs/screenshots/03-help.png) |
+| ![Preview](docs/screenshots/02-preview-v2.png) | ![Help](docs/screenshots/03-help-v2.png) |
 
 | Cookie (theo nền tảng, trạng thái đăng nhập) | Proxy pool (danh sách, xoay vòng) |
 |---|---|
-| ![Cookies](docs/screenshots/04-cookies.png) | ![Proxy](docs/screenshots/05-proxy.png) |
+| ![Cookies](docs/screenshots/04-cookies-v2.png) | ![Proxy](docs/screenshots/05-proxy-v2.png) |
 
 | Lịch sử tải | RTL (العربية) |
 |---|---|
-| ![History](docs/screenshots/06-history.png) | ![RTL](docs/screenshots/07-rtl-arabic.png) |
+| ![History](docs/screenshots/06-history-v2.png) | ![RTL](docs/screenshots/07-rtl-arabic-v2.png) |
 
 ## Để cookie YouTube dùng được lâu
 
