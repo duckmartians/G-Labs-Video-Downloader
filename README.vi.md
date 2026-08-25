@@ -43,17 +43,3 @@ Tải bản mới nhất tại [Releases](https://github.com/duckmartians/G-Labs
 - **macOS (Apple Silicon)**: `GLabsVideoDownloader-<version>-arm64.dmg` — chưa ký; mở lần đầu: chuột phải → Open, hoặc `xattr -dr com.apple.quarantine "/Applications/G-Labs Video Downloader.app"`
 
 Thiết lập và lịch sử nằm trong thư mục dữ liệu người dùng của HĐH (`%APPDATA%\G-Labs Video Downloader` trên Windows, `~/Library/Application Support/G-Labs Video Downloader` trên macOS). Video tải về mặc định vào `Documents/G-Labs Video Downloader`.
-
-## Phát triển
-
-```bash
-npm run install:all       # deps root + frontend + backend
-npm run fetch:binaries    # engine tải + ffmpeg vào bin/
-npm run dev               # backend :3001 + Vite :5178 (trình duyệt)
-npm run dev:app           # như trên + cửa sổ Electron
-npm test                  # unit test (nhận diện URL, parse tiến độ, cookie, CSV)
-```
-
-Build: `build-exe.bat` (installer NSIS Windows) · `./build_mac_arm64.sh` (DMG macOS).
-
-**Stack**: Electron + Express (Node, ESM) + React 18 / Vite / Tailwind / zustand. Engine tải và ffmpeg chạy dạng binary tĩnh đóng gói sẵn — không cần Python.

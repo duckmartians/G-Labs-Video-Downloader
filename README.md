@@ -43,17 +43,3 @@ Grab the latest from [Releases](https://github.com/duckmartians/G-Labs-Video-Dow
 - **macOS (Apple Silicon)**: `GLabsVideoDownloader-<version>-arm64.dmg` — unsigned; first open: right-click → Open, or `xattr -dr com.apple.quarantine "/Applications/G-Labs Video Downloader.app"`
 
 Settings and history live in the OS per-user data folder (`%APPDATA%\G-Labs Video Downloader` on Windows, `~/Library/Application Support/G-Labs Video Downloader` on macOS). Downloads default to `Documents/G-Labs Video Downloader`.
-
-## Development
-
-```bash
-npm run install:all       # root + frontend + backend deps
-npm run fetch:binaries    # download engine + ffmpeg into bin/
-npm run dev               # backend :3001 + Vite :5178 (browser)
-npm run dev:app           # same + Electron shell
-npm test                  # unit tests (URL detect, progress parse, cookies, CSV)
-```
-
-Build: `build-exe.bat` (Windows NSIS installer) · `./build_mac_arm64.sh` (macOS DMG).
-
-**Stack**: Electron + Express (Node, ESM) + React 18 / Vite / Tailwind / zustand. The download engine and ffmpeg are spawned as bundled static binaries — no Python needed.
